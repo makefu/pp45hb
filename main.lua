@@ -14,7 +14,8 @@ function love.keyreleased( key, unicode )
 end
 
 function love.draw()
-    love.graphics.setColor(0, 0, 0, 255)
-    love.graphics.rectangle("fill", 0, 0, love.graphics.getWidth(), love.graphics.getHeight() )
+  --  love.graphics.setColor(0, 0, 0, 255)
+  --  love.graphics.rectangle("fill", 0, 0, love.graphics.getWidth(), love.graphics.getHeight() )
+  love.graphics.print("Hello Party People", 400,500)
 end
 
